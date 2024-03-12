@@ -11,7 +11,7 @@ public class ItemGenerator : MonoBehaviour
     int ratio = 2;
     float speed = -0.03f;
 
-    public void SetParaneter(float span, float speed, int ratio)
+    public void SetParameter(float span, float speed, int ratio)
     {
         this.span=span;
         this.speed=speed;
