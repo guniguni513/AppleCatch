@@ -33,8 +33,8 @@ public class ItemGenerator : MonoBehaviour
             {
                 item = Instantiate(applePrefab);
             }
-            float x = Random.Range(-1.5f,1.5f);
-            float z = Random.Range(-1.5f,1.5f);
+            float x = Random.Range(-1,2);
+            float z = Random.Range(-1,2);
             item.transform.position = new Vector3(x,4,z);
             item.GetComponent<ItemController>().dropSpeed = this.speed;
         }
